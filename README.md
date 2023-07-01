@@ -33,3 +33,27 @@ XuetangX dataset demonstrate the effectiveness of CA-TFHN in predicting dropout 
 XuetangX dataset: [Downloads](https://github.com/wzfhaha/dropout_prediction) <p>
 KDD Cup 2015 dataset: [Downloads](http://lfs.aminer.cn/misc/moocdata/data/kddcup15.zip)
 
+## Usage
+```shell
+usage: train.py [-h] [-indir INDIR] [-outdir OUTDIR] [-e E] [-r R] [-lr LR]
+
+optional parameters
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -indir INDIR    input dir (default: current dir)
+  -outdir OUTDIR  output dir (default: current dir)
+  -e E            epoch (default: 15)
+  -r R            random seed (default: 0)
+  -lr LR          learning rate (default: 1e-4)
+```
+
+## Demo
+```shell
+python train.py
+```
+
+## Reference
+```
+waiting for update
+```
