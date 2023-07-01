@@ -3,4 +3,4 @@ This is the code for the paper 《MOOCs Dropout Prediction via Classmates Augmen
 Dataset:
 XuetangX dataset and KDD Cup 2015 dataset
 Framework:
-Pytorch PYG Sklearn
+Pytorch PYG Sklearn 
