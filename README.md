@@ -30,6 +30,6 @@ XuetangX dataset demonstrate the effectiveness of CA-TFHN in predicting dropout 
 
 
 ## Dataset
-XuetangX dataset and KDD Cup 2015 dataset
-Framework:
-Pytorch PYG Sklearn 1112
+XuetangX dataset: [Downloads](https://github.com/wzfhaha/dropout_prediction) <p>
+KDD Cup 2015 dataset: [Downloads](http://lfs.aminer.cn/misc/moocdata/data/kddcup15.zip)
+
