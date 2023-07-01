@@ -1,7 +1,7 @@
 # CA-TFHN
 ## About
 This project is the implementation of the paper "MOOCs Dropout Prediction via Classmates Augmented Time-Flow Hybrid Network"
-![all_method](PaperPic/all_method.png)
+![all_method](paperpic/all_method.png)
 
 ## Abstract
 Massive Open Online Courses (MOOCs) provides learners
