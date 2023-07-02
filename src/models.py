@@ -3,6 +3,7 @@ import torch.nn.functional as F
 from torch import nn as nn
 from torch_geometric.nn import SAGEConv
 
+
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 
