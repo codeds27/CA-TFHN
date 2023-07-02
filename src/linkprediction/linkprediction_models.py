@@ -15,6 +15,7 @@ from sklearn.preprocessing import StandardScaler
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 input_data_dir = '../../datastore'
+output_data_dir = '../../datastore'
 model_save_dir = '../../datastore'
 threshold = 0.6
 
@@ -291,6 +292,6 @@ for index, item in all_log.iterrows():
     col = int(item['course_graph_id'])
     link_predict_matrix[row][col] = 1
 
-np.save('link_predict_matrix.npy', link_predict_matrix)
-np.save(os.path.join('.', 'test_user.npy'), user_encoder_features_dict)
-np.save(os.path.join('.', 'test_course.npy'), course_encoder_features_dict)
+np.save(os.path.join(output_data_dir, 'link_predict_matrix.npy'), link_predict_matrix)
+np.save(os.path.join(output_data_dir, 'test_user.npy'), user_encoder_features_dict)
+np.save(os.path.join(output_data_dir, 'test_course.npy'), course_encoder_features_dict)
