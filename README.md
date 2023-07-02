@@ -49,7 +49,16 @@ optional arguments:
 ```
 
 ## Demo
+All the codes need to run in the linux environment or others that
+support the linux shell file
 ```shell
+# download data from www.moocdata.org
+sh dump_data.sh
+
+# extract feature from raw data
+sh feat_extract.sh
+
+# run CA-TFHN model
 python train.py
 ```
 
