@@ -63,6 +63,7 @@ python train.py
 ```
 
 ## Reference
+:clap:Congratulations! Our paper has been accepted by the CCF Conference ICONIP(2023 International Conference on Neural Information Processing).
 ```
 @inproceedings{liang2023moocs,
   title={MOOCs Dropout Prediction via Classmates Augmented Time-Flow Hybrid Network},
