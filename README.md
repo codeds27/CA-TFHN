@@ -74,6 +74,3 @@ python train.py
   organization={Springer}
 }
 ```
-
-## Contact
-If you have any questions, please contact me via email: rencailgb@gmail.com
