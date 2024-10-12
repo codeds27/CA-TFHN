@@ -64,5 +64,12 @@ python train.py
 
 ## Reference
 ```
-waiting for update
+@inproceedings{liang2023moocs,
+  title={MOOCs Dropout Prediction via Classmates Augmented Time-Flow Hybrid Network},
+  author={Liang, Guanbao and Qian, Zhaojie and Wang, Shuang and Hao, Pengyi},
+  booktitle={International Conference on Neural Information Processing},
+  pages={405--416},
+  year={2023},
+  organization={Springer}
+}
 ```
